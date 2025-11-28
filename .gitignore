@@ -1,0 +1,109 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Installer logs
+.installed.cfg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Django specific
+# Database
+db.sqlite3
+
+# Local settings
+local_settings.py
+
+# Uploaded media and collected static files
+media/
+staticfiles/
+
+# Logs
+*.log
+logs/
+
+# Environment variable files
+.env
+.env.*
+*.env
+
+# Editor / IDE
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+nosetests.xml
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# celery
+celerybeat-schedule
+
+# Docker
+# Ignore docker-compose overrides and transient logs
+docker-compose.override.yml
+*.log
+
+# Node (if any frontend)
+node_modules/
+
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.*
+.terraform.lock.hcl
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# JetBrains
+*.iml
+/.idea
+
+# Python egg/cache
+*.egg
+*.eggs
+
+# Caches and build artifacts
+__pycache__/
+*.pyc
+
+# Misc
+.history/
